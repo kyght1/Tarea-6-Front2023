@@ -73,7 +73,7 @@ let pokemon =
  'Squirtle'
 ]
 
-/*defino una funcion que retorne otro arreglo con todo a mayúsculas*/
+/*uso el metodo .toUppercase y un map */
 
 let arrayUpper = pokemon.map(element => element.toUpperCase());
 /*lo asigno a una variable y lo muestro por consola*/
